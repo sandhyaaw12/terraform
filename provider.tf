@@ -1,9 +1,9 @@
 provider "azurerm" {
   features {}
-  subscription_id = "83b54687-2b79-42fd-88ae-86e991861f8a"
-  tenant_id       = "62cc60fb-0598-4be4-be75-2a8e554ea3ce"
-  client_id       = "97ad96db-4918-4dbe-b82a-896755ae15cd"
-  client_secret   = "qEg8Q~_eAa6v_BQIzP3~HmyD12S0eea7CuioFbny"
+  subscription_id = ""
+  tenant_id       = ""
+  client_id       = ""
+  client_secret   = ""
 }
 
 resource "azurerm_resource_group" "rgvar" {
